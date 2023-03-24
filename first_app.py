@@ -18,3 +18,6 @@ elif  19< bmi <25:
 else:#elif 25< bmi <30:
     st.write('il tuo bmi è', round(bmi,2), 'sei sovrappeso')
 
+if st.button('baloons'):
+    st.balloons()
+
